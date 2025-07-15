@@ -1,0 +1,6 @@
+com\invoice\api\InvoiceApplication.class
+com\invoice\api\controller\InvoiceController.class
+com\invoice\api\service\InvoiceService.class
+com\invoice\api\repository\InvoiceRepository.class
+com\invoice\api\model\Invoice.class
+com\invoice\api\model\InvoiceItem.class

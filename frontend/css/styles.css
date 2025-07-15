@@ -1,0 +1,33 @@
+/* Custom styles beyond Tailwind */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.item-total {
+    min-width: 80px;
+    display: inline-block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+    .container {
+        padding: 1rem;
+    }
+    
+    .grid-cols-12 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .col-span-5,
+    .col-span-2,
+    .col-span-3,
+    .col-span-1 {
+        grid-column: span 1;
+    }
+}
